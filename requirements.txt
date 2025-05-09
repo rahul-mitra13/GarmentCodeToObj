@@ -1,0 +1,7 @@
+argparse
+numpy
+scipy
+matplotlib
+openmesh
+triangle
+polyscope
