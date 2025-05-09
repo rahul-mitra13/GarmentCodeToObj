@@ -510,7 +510,7 @@ def makeGlobalObj(panel_triangulations, vertex_mappings, panels):
             local_to_global_index_map[(key, i)] = global_index
             global_index += 1
 
-    file = open('global.obj', 'w')
+    file = open('mesh.obj', 'w')
     vertices = []
     faces = []
     num_total_vertices = 0
