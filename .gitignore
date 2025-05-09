@@ -1,0 +1,9 @@
+# Ignore all JSON files
+*.json
+
+# Ignore all obj files
+*.obj
+
+# Ignore all venv directories
+venv/
+**/venv/
