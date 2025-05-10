@@ -1,6 +1,8 @@
-This code converts [GarmentCode](https://github.com/maria-korosteleva/GarmentCode.git) json specifications to a trianglutated mesh with appropriate "stitched" together vertices at panel borders. The mesh is stored in an obj file - `mesh.obj`. This allows for downstream applications/processing that may require a mesh setting. 
+# Dataset and Purpose: 
 
-The orginal authors of [GarmentCode](https://github.com/maria-korosteleva/GarmentCode.git): [Maria Korosteleva](https://korosteleva.com/), [Olga Sorkine-Hornung](https://igl.ethz.ch/people/sorkine/)
+We use the dataset [Generating Datasets of 3D Garments with Sewing Patterns](https://zenodo.org/records/5267549) from [Maria Korosteleva](https://korosteleva.com/) and [Sung-Hee Lee](https://lava.kaist.ac.kr/?page_id=41).
+
+This code converts json specifications in this dataset to a trianglutated mesh with appropriate "stitched" together vertices at panel borders. The mesh is stored in an obj file - `mesh.obj`. This allows for downstream applications/processing that may require a mesh setting. 
 
 # Usage 
 
